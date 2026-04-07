@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Lexend:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --font-lexend: "Lexend", sans-serif;
+    --font-benne: "Benne", serif;
+}
