@@ -60,7 +60,7 @@ export default function Navbar() {
         <>
             {/* ── NAVBAR ── */}
             <nav className={`fixed top-0 left-0 w-full z-40 ${fontClass}`}>
-                <div className="bg-white/80 backdrop-blur-xl border-b border-zinc-100/80 px-5 py-3 flex items-center justify-between">
+                <div className="bg-white/80 backdrop-blur-xl px-5 py-3 flex items-center justify-between">
                     <div className="flex items-center gap-3">
                         <p className="  text-xl font-extrabold font-lexend">UNNATI</p>
                     </div>
