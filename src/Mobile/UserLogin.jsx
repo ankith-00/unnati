@@ -60,25 +60,19 @@ export default function Login() {
 
                         <form onSubmit={handleLogin} className="flex flex-col gap-6">
                             <div>
-                                <label className="block text-[1em] text-zinc-600 uppercase tracking-wider mb-2 font-lexend font-bold">
-                                    {t.email}
-                                </label>
                                 <input
                                     required
                                     type="email"
-                                    placeholder={language === "Kannada" ? "ನಿಮ್ಮ ಇಮೇಲ್" : "Your Email"}
+                                    placeholder={language === "Kannada" ? "ಇಮೇಲ್" : "Email"}
                                     className="w-full border border-zinc-200 px-4 py-4 text-[1em] text-black focus:outline-none focus:border-black transition-all rounded-xl bg-zinc-50/50 font-lexend"
                                 />
                             </div>
                             <div>
-                                <label className="block text-[1em] text-zinc-600 uppercase tracking-wider mb-2 font-lexend font-bold">
-                                    {t.password}
-                                </label>
                                 <div className="relative">
                                     <input
                                         required
                                         type={showPassword ? "text" : "password"}
-                                        placeholder={language === "Kannada" ? "ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್" : "Password"}
+                                        placeholder={language === "Kannada" ? "ಪಾಸ್‌ವರ್ಡ್" : "Password"}
                                         className="w-full border border-zinc-200 px-4 py-4 text-[1em] text-black focus:outline-none focus:border-black transition-all rounded-xl bg-zinc-50/50 font-lexend"
                                     />
                                     <button
@@ -128,9 +122,6 @@ export default function Login() {
                         {/* Note: I wrapped buttons in a form for consistent behavior */}
                         <form onSubmit={handleLogin} className="flex flex-col gap-6">
                             <div>
-                                <label className="block text-[1em] text-zinc-600 uppercase tracking-wider mb-2 font-lexend font-bold">
-                                    {language === "Kannada" ? "ಹೆಸರು" : "Full Name"}
-                                </label>
                                 <input
                                     required
                                     type="text"
@@ -139,9 +130,6 @@ export default function Login() {
                                 />
                             </div>
                             <div>
-                                <label className="block text-[1em] text-zinc-600 uppercase tracking-wider mb-2 font-lexend font-bold">
-                                    {t.email}
-                                </label>
                                 <input
                                     required
                                     type="email"
@@ -150,9 +138,6 @@ export default function Login() {
                                 />
                             </div>
                             <div>
-                                <label className="block text-[1em] text-zinc-600 uppercase tracking-wider mb-2 font-lexend font-bold">
-                                    {t.password}
-                                </label>
                                 <div className="relative">
                                     <input
                                         required
