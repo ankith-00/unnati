@@ -23,54 +23,6 @@ const listingsData = [
     },
     {
         id: 2,
-        name: { en: "AgriDrone Pro X10", kn: "ಅಗ್ರಿಡ್ರೋನ್ ಪ್ರೊ X10" },
-        info: { en: "Precision spraying, 10L tank, 20 min flight time.", kn: "ನಿಖರವಾದ ಸಿಂಪಡಣೆ, 10 ಲೀಟರ್ ಟ್ಯಾಂಕ್." },
-        images: [
-            "https://images.unsplash.com/photo-1508614589041-895b88991e3e?q=80&w=600",
-            "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=600",
-            "https://images.unsplash.com/photo-1531693251400-38df35776dc7?q=80&w=600"
-        ],
-        tags: [{ label: { en: "TOP RATED", kn: "ಉನ್ನತ ಶ್ರೇಣಿ" }, color: "bg-blue-600 text-white" }],
-        specs: [{ label: { en: "Rate", kn: "ದರ" }, value: "₹800/Acre" }, { label: { en: "Type", kn: "ವಿಧ" }, value: "Sprayer" }]
-    },
-    {
-        id: 3,
-        name: { en: "Claas Lexion 8000", kn: "ಕ್ಲಾಸ್ ಲೆಕ್ಸಿಯಾನ್ 8000" },
-        info: { en: "Harvester. Rapid grain separation, high capacity.", kn: "ಕೊಯ್ಲು ಯಂತ್ರ. ಹೆಚ್ಚಿನ ಸಾಮರ್ಥ್ಯ." },
-        images: [
-            "https://images.unsplash.com/photo-1616010508198-5c468e82a3b7?q=80&w=600",
-            "https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=600",
-            "https://images.unsplash.com/photo-1594916817688-66d1f951e739?q=80&w=600"
-        ],
-        tags: [{ label: { en: "HEAVY DUTY", kn: "ಹೆವಿ ಡ್ಯೂಟಿ" }, color: "bg-zinc-800 text-white" }],
-        specs: [{ label: { en: "Rate", kn: "ದರ" }, value: "₹4,200/Hr" }, { label: { en: "Driver", kn: "ಚಾಲಕ" }, value: "Included" }]
-    },
-    {
-        id: 4,
-        name: { en: "Sonalika GT 20", kn: "ಸೋನಾಲಿಕಾ GT 20" },
-        info: { en: "Compact tractor for orchards and small farms.", kn: "ತೋಟಗಳಿಗೆ ಮತ್ತು ಸಣ್ಣ ತೋಟಗಳಿಗೆ ಸೂಕ್ತವಾದ ಟ್ರ್ಯಾಕ್ಟರ್." },
-        images: [
-            "https://images.unsplash.com/photo-1621370830744-b490f05565f3?q=80&w=600",
-            "https://images.unsplash.com/photo-1594411135400-0e1d74b77f80?q=80&w=600",
-            "https://images.unsplash.com/photo-1511516382793-60f252085731?q=80&w=600"
-        ],
-        tags: [{ label: { en: "DISCOUNT", kn: "ರಿಯಾಯಿತಿ" }, color: "bg-orange-500 text-white" }],
-        specs: [{ label: { en: "Rate", kn: "ದರ" }, value: "₹1,200/Ha" }, { label: { en: "Compact", kn: "ಕಾಂಪ್ಯಾಕ್ಟ್" }, value: "Yes" }]
-    },
-    {
-        id: 5,
-        name: { en: "Mahindra Rice Transplanter", kn: "ಮಹೀಂದ್ರಾ ರೈಸ್ ಟ್ರಾನ್ಸ್‌ಪ್ಲಾಂಟರ್" },
-        info: { en: "6-row planting capacity. Highly efficient.", kn: "6-ಸಾಲಿನ ನಾಟಿ ಸಾಮರ್ಥ್ಯ. ಹೆಚ್ಚು ಪರಿಣಾಮಕಾರಿ." },
-        images: [
-            "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?q=80&w=600",
-            "https://images.unsplash.com/photo-1527847263472-aa5338d178b8?q=80&w=600",
-            "https://images.unsplash.com/photo-1595053802717-9150179a613f?q=80&w=600"
-        ],
-        tags: [{ label: { en: "NEW", kn: "ಹೊಸತು" }, color: "bg-purple-600 text-white" }],
-        specs: [{ label: { en: "Rate", kn: "ದರ" }, value: "₹3,000/Day" }, { label: { en: "Rows", kn: "ಸಾಲುಗಳು" }, value: "6" }]
-    },
-    {
-        id: 6,
         name: { en: "New Holland 3630", kn: "ನ್ಯೂ ಹಾಲೆಂಡ್ 3630" },
         info: { en: "Turbo Super technology. Reliable for all tasks.", kn: "ಟರ್ಬೊ ಸೂಪರ್ ತಂತ್ರಜ್ಞಾನ. ಎಲ್ಲದಕ್ಕೂ ವಿಶ್ವಾಸಾರ್ಹ." },
         images: [
